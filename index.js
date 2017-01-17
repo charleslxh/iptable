@@ -42,8 +42,10 @@ module.exports = function(options) {
         break;
       case '[object RegExp]':
         authorized = options.filter.test(remoteAddr);
+        break;
       case '[object Function]':
         authorized = options.filter.call(this, remoteAddr);
+        break;
       default:
         authorized = false
     }
