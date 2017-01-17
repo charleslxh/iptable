@@ -1,0 +1,26 @@
+{
+  "name": "iptable",
+  "version": "1.0.0",
+  "description": "An express middleware for filter ip, ip whitelist or blacklist.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charleslxh/iptable.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "iptable",
+    "whitelist",
+    "blacklist"
+  ],
+  "author": "charles.liao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charleslxh/iptable/issues"
+  },
+  "homepage": "https://github.com/charleslxh/iptable#readme"
+}
